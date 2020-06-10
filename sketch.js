@@ -250,6 +250,16 @@ function draw() {
 		textAlign(CENTER);
 		text("You win! Train your Pikachus wisely! :D", width / 2, height - 50);
 	}
+  
+    if (ball_escapes == true) {
+      textSize(18);
+      textAlign(CENTER);
+      fill(0);
+      text("Click on canvas to start game!", 250 ,300);
+      text("Use left and right arrow keys to control paddle", 250 ,330);
+      textSize(12);
+      textAlign(LEFT);
+    }
 }
 
 function mousePressed() {
