@@ -251,7 +251,7 @@ function draw() {
 		text("You win! Train your Pikachus wisely! :D", width / 2, height - 50);
 	}
   
-    if (ball_escapes == true) {
+    if (ball_escapes == true && score < 10) {
       textSize(18);
       textAlign(CENTER);
       fill(0);
